@@ -22,7 +22,7 @@ while True:
 
             inp = input("Buyruqni kiriting: ")
             if inp == "games":
-                print("Monkeytype: 0", "Math: 0")
+                print("Monkeytype: 0", "Math: 1")
                 inp = input("Tanlang: ")
                 if inp == "0":
                     score = monkeytype_typing()
