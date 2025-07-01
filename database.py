@@ -11,6 +11,7 @@ class User(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(String)
+    password = Column(String)
     all_score = Column(Integer, nullable=True, default=0)
 
 Base.metadata.create_all(engine)
